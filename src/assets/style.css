@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ff8fab;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.sobre, .galeria, .porque-amo {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sobre {
+  background-color: #ffe5ec;
+}
+
+.galeria {
+  background-color: #ffc2d1;
+}
+
+.porque-amo {
+  background-color: #ffb3c1;
+}
+
+.galeria-imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.galeria-imgs img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #ff8fab;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
